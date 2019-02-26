@@ -2,7 +2,7 @@
 # Required header block
 '''
   Name: pythonGuidelines.py
-  Author(s): Jack and Jill
+  Author(s): Chocolate and Peanut Butter
 
   Description: Brief description of purpose of this file
 '''
