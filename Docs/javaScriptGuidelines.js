@@ -1,5 +1,5 @@
 
-// JAVASCRIPT STYLE Guidelines
+// JAVASCRIPT STYLE GUIDELINES
 
 // Leave a space between comment syntax and the comment itself
 // Lines should end at line 80
@@ -26,7 +26,7 @@ function theFunction(var1, var2)
     // do somthing else
   } 
 
-  // One empty space between unrelated blocks of code
+  // One empty line between unrelated blocks of code
   for(var i = 0; i < descriptiveVarName; i++)
   {
     // do cool stuff here
