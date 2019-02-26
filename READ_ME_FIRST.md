@@ -34,8 +34,8 @@ I really want to try using an agile approach to this project with bi-weekly scru
 ### One last thing
 
 School comes first. If you cannot make a meeting because of class, we completely understand. This
-  project should just be a fun side job that you can work on during the weekends. That said, 
-  without constant participation, this project  never get off the ground. If you're in this, 
-  we need you in it for the long haul.
+  project should just be a fun side job that you can work on during the weekends If at any time
+  you need to take a break from the project to focus on school, we all completely understand. Jump
+  back on the project when you are able.
 
 Thank you for being a part of this project and let's make something awesome. 
