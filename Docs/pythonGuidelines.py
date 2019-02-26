@@ -1,4 +1,13 @@
 
+# Required header block
+'''
+  Name: pythonGuidelines.py
+  Author(s): Jack and Jill
+
+  Description: Brief description of purpose of this file
+'''
+
+
 # PYTHON STYLE GUIDELINES
 
 # Leave a space between comment syntax and the comment itself
