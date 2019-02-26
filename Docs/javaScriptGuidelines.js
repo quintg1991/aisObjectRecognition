@@ -1,4 +1,12 @@
 
+// REQUIRED HEADER
+/*
+  Name: javaScriptGuidelines.js
+  Author(s): He-Man and Skeletor
+
+  Description: Brief description of purpose of this file
+*/
+
 // JAVASCRIPT STYLE GUIDELINES
 
 // Leave a space between comment syntax and the comment itself
