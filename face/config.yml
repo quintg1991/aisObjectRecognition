@@ -29,4 +29,4 @@ white_balance: { }
   # blue_gain: 1.75
 
 # rotate the images 0, 90, 180, or 270
-rotation: 0
+rotation: 180
