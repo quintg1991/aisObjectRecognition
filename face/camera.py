@@ -67,7 +67,7 @@ def capture_image():
     print('\nTime-lapse capture cancelled.\n')
 
 def check_image(path):
-  img face_recognition.load_image_file(str(path))
+  img = face_recognition.load_image_file(str(path))
 
   face_locations = face_recognition.face_locations(img)
   print('Found: {} faces\n'.format(len(face_locations)))
