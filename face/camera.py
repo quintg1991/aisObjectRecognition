@@ -87,7 +87,7 @@ create_timestampd_dir(dir)
 
 capture_image()
 
-if(config['create_git']):
+if(config['create_gif']):
   print('\nCreating animated gif.\n')
   os.system('convert -delay 10 -loop 0 ' + dir + '/image*.jpg ' + dir + '-timelapse.gif')
 
