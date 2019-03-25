@@ -63,8 +63,8 @@ def capture_image():
       print('\nTime-lapse capture complete!\n')
       sys.exit()
 
-  except KeyboardInterrupt, SystemExit:
-    print '\nTime-lapse capture cancelled.\n'
+  except KeyboardInterrupt: #, SystemExit:
+    print('\nTime-lapse capture cancelled.\n')
 
 def check_image(path):
   img face_recognition.load_image_file(str(path))
@@ -88,11 +88,11 @@ create_timestampd_dir(dir)
 capture_image()
 
 if(config['create_git']):
-  print '\nCreating animated gif.\n'
+  print('\nCreating animated gif.\n')
   os.system('convert -delay 10 -loop 0 ' + dir + '/image*.jpg ' + dir + '-timelapse.gif')
 
 if(config['create_video']):
-  print '\nCreating video.\n'
+  print('\nCreating video.\n')
   os.system('avconv -framerate 20 -i ' + dir + '/image%05d.jpg -vf format=yuv420p ' + dir + '/timelapse.mp4')
 
 
