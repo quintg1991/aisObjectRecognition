@@ -11,3 +11,6 @@ pip3 install dlib
 
 install face_recognition
 pip3 install face_recognition
+
+install yaml
+pip3 install yaml
