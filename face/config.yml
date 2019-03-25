@@ -1,0 +1,32 @@
+# Basic settings
+
+# image resolution set to empty object to use default
+resolution: { width: 480, height: 270 }
+
+# number of images to capture
+total_images: 10
+
+# interval between captures (in seconds)
+interval: 120
+
+# create animated gif from time-lapse images
+create_gif: False
+
+# create video from time-lapse images
+create_video: False
+
+# Advanced settings
+
+# ISO 0 = auto, 60-800 for manual ISO
+iso: 0
+
+# shutter speed 0 = auto else value in microseconds (seconds * 1000000)
+shutter_speed: 0
+
+# white balance set to empty object for auto
+white_balance: { }
+  # red_gain: 1.3
+  # blue_gain: 1.75
+
+# rotate the images 0, 90, 180, or 270
+rotation: 0
