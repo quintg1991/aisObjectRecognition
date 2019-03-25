@@ -13,4 +13,4 @@ install face_recognition
 pip3 install face_recognition
 
 install yaml
-pip3 install yaml
+pip3 install pyyaml
