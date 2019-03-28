@@ -1,7 +1,9 @@
 # Basic settings
 
 # image resolution set to empty object to use default
-resolution: { width: 480, height: 270 }
+resolution: { }
+  # width: 480,
+  #height: 270
 
 # number of images to capture
 total_images: 10
